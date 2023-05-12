@@ -22,9 +22,9 @@ public class HttpServer
     {
         var logString =
             $"REQUEST:\n{context.Request.HttpMethod} {context.Request.RawUrl} HTTP/{context.Request.ProtocolVersion}\n" +
-            "Host: {context.Request.UserHostName}\nUser-agent: {context.Request.UserAgent}\n-------------------\n" +
-            "RESPONSE:\nStatus: {statusCode}\nDate: {DateTime.Now}\nContent-Type: {contentType}" +
-            "\nContent-Length: {responseBody.Length}\n";
+            $"Host: {context.Request.UserHostName}\nUser-agent: {context.Request.UserAgent}\n-------------------\n" +
+            $"RESPONSE:\nStatus: {statusCode}\nDate: {DateTime.Now}\nContent-Type: {contentType}" +
+            $"\nContent-Length: {responseBody.Length}\n";
         context.Response.ContentType = contentType;
         context.Response.StatusCode = (int)statusCode;
         context.Response.ContentLength64 = responseBody.Length;
@@ -82,9 +82,10 @@ public class HttpServer
     {
         while(_running)
         {
-            var t = new Thread(AcceptConnection!);
+            //var t = new Thread(AcceptConnection!);
+
             var context = _listener.GetContext();
-            if (_running) t.Start(context);
+            if (_running) ThreadPool.QueueUserWorkItem(state => { AcceptConnection(context); });
         }
     }
     public void Stop()
