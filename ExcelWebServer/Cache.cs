@@ -19,19 +19,18 @@ public class Cache
         {
             throw new Exception("Element is already in cache");
         }
-
         _cache.Add(key, value);
         _cacheLock.ExitWriteLock();
     }
 
     public void RemoveFromCache(string key) // unused
     {
+        /*TODO: implementirati ovu funkciju*/
         _cacheLock.EnterReadLock();
         if (!_cache.Remove(key))
         {
-            throw new Exception("Element is not in cache");
+            throw new Exception("Element doesn't exist in cache!");
         }
-
         _cacheLock.ExitReadLock();
     }
 

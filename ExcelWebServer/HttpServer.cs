@@ -35,18 +35,15 @@ public class HttpServer
         Console.WriteLine(logString);
     }
 
-    private void AcceptConnection(object cont)
+    private void AcceptConnection(HttpListenerContext context)
     {
-        var context = (HttpListenerContext)cont;
         if (context.Request.HttpMethod != "GET")
         {
-            SendResponse(context, "Method not allowed"u8.ToArray(), "text/plain",
+            SendResponse(context, "Method not allowed!"u8.ToArray(), "text/plain",
                 HttpStatusCode.MethodNotAllowed);
             return;
         }
-
-        if (context.Request.Url == null) return;
-        string filename = context.Request.Url.AbsolutePath.TrimStart('/');
+        string filename = context.Request.Url!.AbsolutePath.TrimStart('/');
         string value;
         if (_cache.HasKey(filename))
         {
@@ -54,20 +51,29 @@ public class HttpServer
         }
         else
         {
-            var loadOptions = new LoadOptions(LoadFormat.Csv);
-            var workbook = new Workbook(filename, loadOptions);
-            workbook.Save($"{filename}.xlsx", SaveFormat.Xlsx);
-            value = $"{filename}.xlsx";
-            _cache.AddToCache(filename, value, 1000);
+            if (File.Exists(filename))
+            {
+                var loadOptions = new LoadOptions(LoadFormat.Csv);
+                var workbook = new Workbook(filename, loadOptions);
+                workbook.Save($"{filename}.xlsx", SaveFormat.Xlsx);
+                value = $"{filename}.xlsx";
+                _cache.AddToCache(filename, value, 1000);
+            }
+            else
+            {
+                SendResponse(context, "Error 404: File not found!"u8.ToArray(), "text/plain", HttpStatusCode.BadRequest);
+                return;
+            }
         }
 
         try
         {
+            Console.WriteLine($"Downloading file {value}");
             SendResponse(context, File.ReadAllBytes(value), "application/vnd.ms-excel");
         }
         catch (Exception e)
         {
-            Console.WriteLine(e);
+            Console.WriteLine(e.Message);
         }
     }
 
@@ -80,18 +86,23 @@ public class HttpServer
     }
     private void Loop()
     {
-        while(_running)
-        {
-            //var t = new Thread(AcceptConnection!);
-
-            var context = _listener.GetContext();
-            if (_running) ThreadPool.QueueUserWorkItem(state => { AcceptConnection(context); });
+        while (_running)
+        { 
+            try
+            {
+                var context = _listener.GetContext();
+                if (_running) ThreadPool.QueueUserWorkItem(state => { AcceptConnection(context); });            
+            }
+            catch(HttpListenerException) 
+            {
+                Console.WriteLine("Server stopped listening!");
+            }
         }
     }
     public void Stop()
     {
         _running = false;
-        _listenerThread.Join();
         _listener.Stop();
+        _listenerThread.Join(); 
     }
 }
