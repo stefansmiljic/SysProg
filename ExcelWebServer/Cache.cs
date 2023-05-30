@@ -1,31 +1,43 @@
 namespace ExcelWebServer;
 
+
+public struct FileAndDate
+{
+    public byte[] bytes;
+    public DateTime created;
+};
 public class Cache
 {
     private readonly ReaderWriterLockSlim _cacheLock;
-    private readonly Dictionary<string, string> _cache;
-    private const int CacheCapacity = 1024;
+    private readonly Dictionary<string, FileAndDate> _cache;
+    private const int CacheCapacity = 3;
+
+    
     
     public Cache()
     {
         _cacheLock = new ReaderWriterLockSlim();
-        _cache = new Dictionary<string, string>(CacheCapacity);
+        _cache = new Dictionary<string, FileAndDate>(CacheCapacity);
     }
 
-    public void AddToCache(string key, string value, int timeout)
+    public void AddToCache(string key, byte[] value, int timeout)
     {
         if (!_cacheLock.TryEnterWriteLock(timeout)) return;
         if (_cache.ContainsKey(key))
         {
             throw new Exception("Element is already in cache");
         }
-        _cache.Add(key, value);
+        FileAndDate fileAndDate = new FileAndDate()
+        {
+            bytes = value,
+            created = DateTime.UtcNow
+        };
+        _cache.Add(key, fileAndDate);
         _cacheLock.ExitWriteLock();
     }
 
-    public void RemoveFromCache(string key) // unused
+    public void RemoveFromCache(string key)
     {
-        /*TODO: implementirati ovu funkciju*/
         _cacheLock.EnterReadLock();
         if (!_cache.Remove(key))
         {
@@ -34,12 +46,12 @@ public class Cache
         _cacheLock.ExitReadLock();
     }
 
-    public string ReadFromCache(string key)
+    public byte[] ReadFromCache(string key)
     {
         _cacheLock.EnterReadLock();
         try
         {
-            return _cache[key];
+            return _cache[key].bytes;
         }
         finally
         {
@@ -49,6 +61,17 @@ public class Cache
 
     public bool HasKey(string key)
     {
-        return _cache.ContainsKey(key);
+        if(_cache.ContainsKey(key))
+        {
+            if(_cache[key].created.AddMinutes(10) >= DateTime.UtcNow)
+            {
+                return true;
+            }
+            else
+            {
+                RemoveFromCache(key); 
+            }
+        }
+        return false;
     }
 }

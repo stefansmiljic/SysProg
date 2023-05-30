@@ -44,36 +44,34 @@ public class HttpServer
             return;
         }
         string filename = context.Request.Url!.AbsolutePath.TrimStart('/');
-        string value;
-        if (_cache.HasKey(filename))
-        {
-            value = _cache.ReadFromCache(filename);
-        }
-        else
+        byte[] responseBytes;
+
+        try
         {
             if (File.Exists(filename))
             {
-                var loadOptions = new LoadOptions(LoadFormat.Csv);
-                var workbook = new Workbook(filename, loadOptions);
-                workbook.Save($"{filename}.xlsx", SaveFormat.Xlsx);
-                value = $"{filename}.xlsx";
-                _cache.AddToCache(filename, value, 1000);
+                if (_cache.HasKey(filename))
+                {
+                    responseBytes = _cache.ReadFromCache(filename);
+                }
+                else
+                {
+                    var loadOptions = new LoadOptions(LoadFormat.Csv);
+                    var workbook = new Workbook(filename, loadOptions);
+                    workbook.Save($"{filename}.xlsx", SaveFormat.Xlsx);
+                    responseBytes = File.ReadAllBytes($"{filename}.xlsx");
+                    _cache.AddToCache(filename, responseBytes, 1000);
+                }
+                SendResponse(context, responseBytes, "application/vnd.ms-excel");
             }
             else
             {
                 SendResponse(context, "Error 404: File not found!"u8.ToArray(), "text/plain", HttpStatusCode.BadRequest);
-                return;
             }
         }
-
-        try
+        catch(Exception ex)
         {
-            Console.WriteLine($"Downloading file {value}");
-            SendResponse(context, File.ReadAllBytes(value), "application/vnd.ms-excel");
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e.Message);
+            Console.WriteLine(ex.Message);
         }
     }
 
