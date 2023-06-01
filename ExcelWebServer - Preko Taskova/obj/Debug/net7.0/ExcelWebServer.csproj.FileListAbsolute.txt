@@ -1,0 +1,188 @@
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/ExcelWebServer.exe
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/ExcelWebServer.deps.json
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/ExcelWebServer.runtimeconfig.json
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/ExcelWebServer.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/ExcelWebServer.pdb
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/Enums.NET.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/MathNet.Numerics.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/Microsoft.IO.RecyclableMemoryStream.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/NPOI.OOXML.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/NPOI.OpenXml4Net.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/NPOI.OpenXmlFormats.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/NPOI.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/BouncyCastle.Crypto.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/ICSharpCode.SharpZipLib.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/SixLabors.Fonts.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/SixLabors.ImageSharp.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/System.Drawing.Common.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/System.Security.Cryptography.Pkcs.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/System.Security.Cryptography.Xml.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/System.Security.Permissions.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/System.Windows.Extensions.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.csproj.AssemblyReference.cache
+C:/Users/Stefan/source/repos/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Stefan/source/repos/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.AssemblyInfoInputs.cache
+C:/Users/Stefan/source/repos/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.AssemblyInfo.cs
+C:/Users/Stefan/source/repos/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.csproj.CoreCompileInputs.cache
+C:/Users/Stefan/source/repos/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.csproj.CopyComplete
+C:/Users/Stefan/source/repos/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/obj/Debug/net7.0/refint/ExcelWebServer.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.pdb
+C:/Users/Stefan/source/repos/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.genruntimeconfig.cache
+C:/Users/Stefan/source/repos/ExcelWebServer/obj/Debug/net7.0/ref/ExcelWebServer.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/Aspose.Cells.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/SkiaSharp.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/runtimes/osx/native/libSkiaSharp.dylib
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/runtimes/win-arm64/native/libSkiaSharp.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/runtimes/win-x64/native/libSkiaSharp.dll
+C:/Users/Stefan/source/repos/ExcelWebServer/bin/Debug/net7.0/runtimes/win-x86/native/libSkiaSharp.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.csproj.AssemblyReference.cache
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.AssemblyInfoInputs.cache
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.AssemblyInfo.cs
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.csproj.CoreCompileInputs.cache
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/obj/Debug/net7.0/refint/ExcelWebServer.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.pdb
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/ExcelWebServer
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/ExcelWebServer.deps.json
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/ExcelWebServer.runtimeconfig.json
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/ExcelWebServer.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/ExcelWebServer.pdb
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/Aspose.Cells.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/Enums.NET.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/MathNet.Numerics.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/Microsoft.IO.RecyclableMemoryStream.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/NPOI.OOXML.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/NPOI.OpenXml4Net.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/NPOI.OpenXmlFormats.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/NPOI.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/BouncyCastle.Crypto.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/ICSharpCode.SharpZipLib.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/SixLabors.Fonts.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/SixLabors.ImageSharp.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/SkiaSharp.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/System.Drawing.Common.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/System.Security.Cryptography.Pkcs.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/System.Security.Cryptography.Xml.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/System.Security.Permissions.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/System.Windows.Extensions.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/runtimes/osx/native/libSkiaSharp.dylib
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/runtimes/win-arm64/native/libSkiaSharp.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/runtimes/win-x64/native/libSkiaSharp.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/runtimes/win-x86/native/libSkiaSharp.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.csproj.CopyComplete
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/obj/Debug/net7.0/ExcelWebServer.genruntimeconfig.cache
+/Users/bogdanmitrovic/Downloads/ExcelWebServer/obj/Debug/net7.0/ref/ExcelWebServer.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\ExcelWebServer.exe
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\ExcelWebServer.deps.json
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\ExcelWebServer.runtimeconfig.json
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\ExcelWebServer.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\ExcelWebServer.pdb
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\Aspose.Cells.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\Enums.NET.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\MathNet.Numerics.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\NPOI.OOXML.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\NPOI.OpenXml4Net.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\NPOI.OpenXmlFormats.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\NPOI.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\ICSharpCode.SharpZipLib.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\SixLabors.Fonts.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\SixLabors.ImageSharp.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\SkiaSharp.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\System.Security.Cryptography.Xml.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\obj\Debug\net7.0\ExcelWebServer.csproj.AssemblyReference.cache
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\obj\Debug\net7.0\ExcelWebServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\obj\Debug\net7.0\ExcelWebServer.AssemblyInfoInputs.cache
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\obj\Debug\net7.0\ExcelWebServer.AssemblyInfo.cs
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\obj\Debug\net7.0\ExcelWebServer.csproj.CoreCompileInputs.cache
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\obj\Debug\net7.0\ExcelWebServer.csproj.CopyComplete
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\obj\Debug\net7.0\ExcelWebServer.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\obj\Debug\net7.0\refint\ExcelWebServer.dll
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\obj\Debug\net7.0\ExcelWebServer.pdb
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\obj\Debug\net7.0\ExcelWebServer.genruntimeconfig.cache
+D:\FAX\SysProg\REPOZITORIJUM\SysProg\ExcelWebServer\obj\Debug\net7.0\ref\ExcelWebServer.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\ExcelWebServer.exe
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\ExcelWebServer.deps.json
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\ExcelWebServer.runtimeconfig.json
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\ExcelWebServer.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\ExcelWebServer.pdb
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\Aspose.Cells.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\Enums.NET.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\MathNet.Numerics.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\NPOI.OOXML.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\NPOI.OpenXml4Net.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\NPOI.OpenXmlFormats.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\NPOI.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\ICSharpCode.SharpZipLib.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\SixLabors.Fonts.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\SixLabors.ImageSharp.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\SkiaSharp.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\System.Security.Cryptography.Xml.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\obj\Debug\net7.0\ExcelWebServer.csproj.AssemblyReference.cache
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\obj\Debug\net7.0\ExcelWebServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\obj\Debug\net7.0\ExcelWebServer.AssemblyInfoInputs.cache
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\obj\Debug\net7.0\ExcelWebServer.AssemblyInfo.cs
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\obj\Debug\net7.0\ExcelWebServer.csproj.CoreCompileInputs.cache
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\obj\Debug\net7.0\ExcelWebServer.csproj.CopyComplete
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\obj\Debug\net7.0\ExcelWebServer.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\obj\Debug\net7.0\refint\ExcelWebServer.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\obj\Debug\net7.0\ExcelWebServer.pdb
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\obj\Debug\net7.0\ExcelWebServer.genruntimeconfig.cache
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\ExcelWebServer - Preko Taskova\obj\Debug\net7.0\ref\ExcelWebServer.dll
