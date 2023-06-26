@@ -19,3 +19,24 @@ C:\STEFAN - NE PIPAJ\YelpAPI\bin\Debug\net7.0\System.Reactive.dll
 C:\STEFAN - NE PIPAJ\YelpAPI\bin\Debug\net7.0\Yelp.Api.dll
 C:\STEFAN - NE PIPAJ\YelpAPI\bin\Debug\net7.0\YelpSharp.dll
 C:\STEFAN - NE PIPAJ\YelpAPI\obj\Debug\net7.0\YelpAPI.csproj.CopyComplete
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\bin\Debug\net7.0\YelpAPI.exe
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\bin\Debug\net7.0\YelpAPI.deps.json
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\bin\Debug\net7.0\YelpAPI.runtimeconfig.json
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\bin\Debug\net7.0\YelpAPI.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\bin\Debug\net7.0\YelpAPI.pdb
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\bin\Debug\net7.0\RestSharp.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\bin\Debug\net7.0\System.Reactive.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\bin\Debug\net7.0\Yelp.Api.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\bin\Debug\net7.0\YelpSharp.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\obj\Debug\net7.0\YelpAPI.csproj.AssemblyReference.cache
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\obj\Debug\net7.0\YelpAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\obj\Debug\net7.0\YelpAPI.AssemblyInfoInputs.cache
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\obj\Debug\net7.0\YelpAPI.AssemblyInfo.cs
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\obj\Debug\net7.0\YelpAPI.csproj.CoreCompileInputs.cache
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\obj\Debug\net7.0\YelpAPI.csproj.CopyComplete
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\obj\Debug\net7.0\YelpAPI.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\obj\Debug\net7.0\refint\YelpAPI.dll
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\obj\Debug\net7.0\YelpAPI.pdb
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\obj\Debug\net7.0\YelpAPI.genruntimeconfig.cache
+C:\STEFAN - NE PIPAJ\SYSPROG REPOZITORIJUM\YelpAPI\obj\Debug\net7.0\ref\YelpAPI.dll

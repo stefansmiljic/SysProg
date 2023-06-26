@@ -194,11 +194,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\STEFAN - NE PIPAJ\\YelpAPI\\YelpAPI.csproj",
+      "projectUniqueName": "C:\\STEFAN - NE PIPAJ\\SYSPROG REPOZITORIJUM\\YelpAPI\\YelpAPI.csproj",
       "projectName": "YelpAPI",
-      "projectPath": "C:\\STEFAN - NE PIPAJ\\YelpAPI\\YelpAPI.csproj",
+      "projectPath": "C:\\STEFAN - NE PIPAJ\\SYSPROG REPOZITORIJUM\\YelpAPI\\YelpAPI.csproj",
       "packagesPath": "C:\\Users\\Sanja\\.nuget\\packages\\",
-      "outputPath": "C:\\STEFAN - NE PIPAJ\\YelpAPI\\obj\\",
+      "outputPath": "C:\\STEFAN - NE PIPAJ\\SYSPROG REPOZITORIJUM\\YelpAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sanja\\AppData\\Roaming\\NuGet\\NuGet.Config",

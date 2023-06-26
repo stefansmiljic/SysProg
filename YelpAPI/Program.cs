@@ -2,6 +2,7 @@
 using Yelp.Api.Models;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
+using System.Reactive.Concurrency;
 
 namespace YelpAPI
 {
@@ -42,11 +43,11 @@ namespace YelpAPI
         {
             businessSubject = new Subject<Business>();
         }
-        public void GetBusinesses(string location, string categories, float rating)
+        public void GetBusinesses(string location, string categories, float rating, IScheduler scheduler)
         {
             string apiKey = "KvmoCqAgp5sh4Z7albmGxJy30DbYbYoOHnk5xmVp6zeVVqKFBa1bEIvAn3r3SPI0hWtYmxfqTLXRvJRUVVTs1WaXQ-LjC2AQ1EYFLGKBvP_B6DRLGtfDoh9qXFWQZHYx";
             var client = new Client(apiKey);
-            _ = Task.Run( async () =>
+            Observable.Start( async () =>
             {
                 try
                 {
@@ -90,7 +91,7 @@ namespace YelpAPI
                     businessSubject.OnError(ex);
                 }
                 
-            });
+            }, scheduler);
         }
         public IDisposable Subscribe(IObserver<Business> observer)
         {
@@ -142,7 +143,9 @@ namespace YelpAPI
             }
             while (!validInput);
 
-            businessStream.GetBusinesses(location, categories, rating);
+            IScheduler scheduler = NewThreadScheduler.Default;
+
+            businessStream.GetBusinesses(location, categories, rating, scheduler);
             Console.ReadLine();
 
             subscription1.Dispose();
