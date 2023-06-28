@@ -3,6 +3,8 @@ using Yelp.Api.Models;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
 using System.Reactive.Concurrency;
+using System.Net;
+using System.Text;
 
 namespace YelpAPI
 {
@@ -98,59 +100,107 @@ namespace YelpAPI
             return businessSubject.Subscribe(observer);
         }
     }
+
+    public class HttpServer
+    {
+        private readonly string url;
+        private BusinessStream? businessStream;
+        private IDisposable? subscription1;
+        private IDisposable? subscription2;
+        private IDisposable? subscription3;
+
+        public HttpServer(string url)
+        {
+            this.url = url;
+        }
+
+        public void Start()
+        {
+            var listener = new HttpListener();
+            listener.Prefixes.Add(url);
+
+            listener.Start();
+            Console.WriteLine("Server started. Listening for incoming requests...");
+
+            while (true)
+            {
+                var context = listener.GetContext();
+                Task.Run(() => HandleRequest(context));
+            }
+        }
+
+        private void HandleRequest(HttpListenerContext context)
+        {
+            var request = context.Request;
+            var response = context.Response;
+            byte[] buffer;
+
+            if (request.HttpMethod == "GET")
+            {
+                string location = request.QueryString["location"]!;
+                string categories = request.QueryString["categories"]!;
+                float rating;
+
+                bool validInput = false;
+                if (float.TryParse(request.QueryString["rating"], out rating))
+                        validInput = true;
+                if (String.IsNullOrEmpty(location) || String.IsNullOrEmpty(categories) || !validInput)
+                {
+                    response.StatusCode = (int)HttpStatusCode.BadRequest;
+                    buffer = Encoding.UTF8.GetBytes("Bad request!");
+                    response.ContentLength64 = buffer.Length;
+                    response.OutputStream.Write(buffer, 0, buffer.Length);
+                    response.OutputStream.Close();
+                }
+                else
+                {
+
+                    IScheduler scheduler = NewThreadScheduler.Default;
+
+                    businessStream = new BusinessStream();
+                    var observer1 = new BusinessObserver("Observer 1");
+                    var observer2 = new BusinessObserver("Observer 2");
+                    var observer3 = new BusinessObserver("Observer 3");
+
+                    var filteredStream = businessStream;
+
+                    subscription1 = filteredStream.Subscribe(observer1);
+                    subscription2 = filteredStream.Subscribe(observer2);
+                    subscription3 = filteredStream.Subscribe(observer3);
+
+                    businessStream.GetBusinesses(location, categories, rating, scheduler);
+
+                    response.StatusCode = (int)HttpStatusCode.OK;
+                    buffer = Encoding.UTF8.GetBytes("Request received. Processing businesses...");
+                    response.ContentLength64 = buffer.Length;
+                    response.OutputStream.Write(buffer, 0, buffer.Length);
+                    response.OutputStream.Close();
+                }
+            }
+            else
+            {
+                response.StatusCode = (int)HttpStatusCode.NotFound;
+                response.OutputStream.Close();
+            }
+        }
+
+        public void Stop()
+        {
+            subscription1!.Dispose();
+            subscription2!.Dispose();
+            subscription3!.Dispose();
+        }
+    }
+
+
     internal class Program
     {
         public static void Main()
         {
-            var businessStream = new BusinessStream();
-
-            var observer1 = new BusinessObserver("Observer 1");
-            var observer2 = new BusinessObserver("Observer 2");
-            var observer3 = new BusinessObserver("Observer 3");
-
-            var filteredStream = businessStream;
-
-            var subscription1 = filteredStream.Subscribe(observer1);
-            var subscription2 = filteredStream.Subscribe(observer2);
-            var subscription3 = filteredStream.Subscribe(observer3);
-
-            string location;
-            string categories;
-            float rating;
-
-            do
-            {
-                Console.WriteLine("Please enter your location.");
-                location = Console.ReadLine()!;
-            }
-            while (string.IsNullOrEmpty(location));
-
-            do
-            {
-                Console.WriteLine("Please enter desired categories.");
-                categories = Console.ReadLine()!;
-            }
-            while (string.IsNullOrEmpty(categories));
-
-            bool validInput = false;
-
-            do
-            {
-                Console.WriteLine("Please enter the minimal expected rating.");
-                if (float.TryParse(Console.ReadLine(), out rating))
-                    validInput = true;
-                else Console.WriteLine("Invalid input. Please enter a valid floating-point number.");
-            }
-            while (!validInput);
-
-            IScheduler scheduler = NewThreadScheduler.Default;
-
-            businessStream.GetBusinesses(location, categories, rating, scheduler);
-            Console.ReadLine();
-
-            subscription1.Dispose();
-            subscription2.Dispose();
-            subscription3.Dispose();
+            HttpServer server;
+            string url = "http://localhost:8080/";
+            server = new HttpServer(url);
+            server.Start();
         }
     }
 }
